@@ -1,2 +1,2 @@
 # Notes
-It's notes
+It's a simple note application
