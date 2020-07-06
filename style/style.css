@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ebebdc;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.note__list__elem {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note__list__elem__header {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: cadetblue;
+}
+
+textarea {
+  resize: none;
+  height: 165px;
+  padding: 5px;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
